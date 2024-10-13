@@ -1,0 +1,15 @@
+.about-contane{
+    width: 82%;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 18px;
+    margin-top: 40px;
+    border: 1px solid #0ef;
+    border-radius: 50px;
+    text-align: left;
+    padding: 30px;
+}
+.about-contane h1{
+    text-align: center;
+    margin-bottom: 50px;
+}

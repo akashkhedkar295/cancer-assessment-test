@@ -1,0 +1,103 @@
+.contaner form , .feed-con form{
+    padding: 20px;
+
+}
+
+.contaner form .log-head , .feed-con form .log-head {
+    text-align: center;
+    margin: 20px 0 40px;
+}
+
+.contaner form .input-box input ,.feed-con form .input-box input ,.feed-con form .input-box textarea{
+    width: 100%;
+    padding: 1.5rem;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 15px;
+    margin: 20px 0;
+}
+
+.contaner form .input-box input:focus ,.feed-con form .input-box input:focus,
+.feed-con form .input-box textarea:focus{
+    border: 1px solid var(--main-color);
+}
+
+.contaner form .btn {
+    width: 100%;
+    margin: 20px 0;
+    display: inline-flex;
+}
+
+.contaner form .btn input ,.feed-con form .btn input {
+    width: 30%;
+    font-size: 15px;
+    padding: 1rem;
+    color: var(--text-color);
+    background: var(--main-color);
+    border-radius: 50px;
+    margin-right: 30px;
+    font-weight: 600;
+    box-shadow: 1px 1px 1px 1px #00eeff,
+        2px 2px 2px 2px #00eeff66,
+        3px 3px 3px 3px #00eeff44,
+        0 0 0 #00eeff22;
+}
+
+.form-con{
+    width: 83%;
+    display: inline-block;
+    font-size: 15px;
+    margin-left: 135px;
+    margin-right: 140px;
+    position: absolute;
+    top: 150px;
+    z-index: 100;
+}
+.form-con table {
+    width: 100%;
+    text-align: left;
+    /* border: 1px solid #fff; */
+    
+}
+.form-con table td{
+    padding: 0px 20px 0px 0px;
+}
+.form-con table td span{
+    padding-top: 13px;
+}
+.form-con  input,select{
+    padding: 1.5rem;
+    width: 100%;
+    color: var(--text-color);
+    background: var(--second-bg-color);
+    border-radius: 15px;
+    margin: 20px 0;
+} 
+.form-con input:focus,
+select:focus{
+    border: 1px solid #0ef;
+}
+.feed-con{
+    width: 700px;
+    height: auto;
+    padding: 20px 10px;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    font-size: 15px;
+    color: #0ef;
+    transform: translate(-50%,-50%);
+    border-radius: 15px;
+    border: 1px solid #0ef;
+}
+.marital-redio{
+    display: inline-flex;
+}
+.marital-redio span{
+    margin-top: 15px;
+    margin-left: 10px;
+}
+.marital-redio input{
+    align-items: center;
+    margin-left: 30px;
+}

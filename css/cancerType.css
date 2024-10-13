@@ -1,0 +1,59 @@
+.con{
+    display: flex;
+}
+.drop-down{
+    width: 20%;
+    position: relative;
+    top: 50px;
+    left: 9%;
+    border: 1px solid #0ef;
+    border-radius: 15px;
+    text-align: center;
+
+    overflow: hidden;
+}
+.drop-down table{
+    width: 100%;
+}
+.drop-down table th button{
+    width: 100%;
+    padding: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #fff;
+    background: transparent;
+    text-align: center;
+    border-bottom: 1px solid #0ef;
+    cursor: pointer;
+}
+
+
+.tabcontent{
+    width: 900px;
+    position: relative;
+    top: 50px;
+    left: 200px;
+    border: 1px solid #0ef;
+    border-radius: 15px;
+    overflow: auto;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 20px;
+    display: hidden;
+}
+.tabcontent h1{
+    color: rgb(255, 0, 166);
+}
+.tabcontent .images{
+    width: 100%;
+    display: flex;
+    
+}
+.tabcontent .images img{
+    width: 50%;
+    height: 400px;
+    margin-right: 55px;
+}
+
+
+

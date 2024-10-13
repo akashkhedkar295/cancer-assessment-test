@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/nav-bar.css">
+    <link rel="stylesheet" href="../home.css">
+    <link rel="stylesheet" href="../css/form.css">
+    <title>Document</title>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+        
+    <header class="header">
+        <a href="#" class="logo">Cancer Assessment Test</a>
+        <i class='bx bx-menu' id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="../home.html" >home</a>
+            <a href="register.html" class="active">Register</a>
+            <a href="CnacerType.html">Cancer Type</a>
+            <a href="Aboutas.html">About as</a>
+            <a href="../html/helpAndFeedback.html">Help & feedback</a>
+        </nav>
+    
+    </header>
+    <h1 style="margin-top: 20px; margin-left: 540px;">Ragistration Form for new Patient</h1>
+    <div class="form-con">
+      <table >
+        <th colspan="3"><label>Patient Name</label></th>
+        <th><label>Date of Birth</label></th><tr>
+        <td><input type="text" class="input-box" placeholder="First Name"></td>
+        <td><input type="text" class="input-box" placeholder="Middal Name"></td>
+        <td><input type="text" class="input-box" placeholder="Last Name"></td>
+        <td><input type="date" class="input-box"></td><tr>
+        <th colspan="1"><label>Gender</label></th>
+        <th><label>Age</label></th>
+        <th><label>Gmail</label></th>
+        <th>Contact No.</th><tr>
+        <td colspan="3" style="display: flex; margin-top: 20px;"><input type="radio" class="input-box" name="gender" value="Male"><span>Male</span>
+        <input type="radio" class="input-box" name="gender" value="Female"><span>Female</span>
+        <input type="radio" class="input-box" name="gender" value="Other"><span>Other</span></td>
+        <td><input type="number" class="input-box" placeholder="Age"></td>
+        <td><input type="email" class="input-box" placeholder="xyz@gamil.com"></td>
+        <td style="display: flex;"><input type="" value="+91" style="width:70px; font-size: 15px; padding-right: 10px;"><input type="number" style="width: 90%;" class="input-box" placeholder="8888888888"></td><tr>
+        <th><label>Blood Group</label></th>
+        <th><label >Height</label></th>
+        <th><label >weight</label></th>
+        <th><label>Cancer Type</label></th><tr>
+        <td><select name="bloodGroup" id="blood" class="input-box">
+            <option checked>select please</option>
+            <option value="A+">A+</option>
+            <option value="A-">A-</option>
+            <option value="B+">B+</option>
+            <option value="B-">B-</option>
+            <option value="O+">O+</option>
+            <option value="O-">O-</option>
+            <option value="AB+">AB+</option>
+            <option value="AB-">AB-</option>
+        </select></td>
+        <td><input type="number" class="input-box" placeholder="Height"></td>
+        <td><input type="number" class="input-box" placeholder="weight"></td>
+        <td><select name="cancerType" id="cancerType" class="input-box">
+            <option>select please</option>
+            <option value="Bladder Cancer">Bladder Cancer</option>
+            <option value="Breast Cancer">Breast Cancer</option>
+            <option value="Colorectal Cancer">Colorectal Cancer</option>
+            <option value="Kidney Cancer">Kidney Cancer</option>
+            <option value="Lung Cancer">Lung Cancer</option>
+            <option value="Lymphoma">Lymphoma</option>
+            <option value="Melanoma">Melanoma</option>
+            <option value="Oral and Oropharyngeal Cancer">Oral and Oropharyngeal Cancer</option>
+            <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+            <option value="Prostate Cancer">Prostate Cancer</option>
+            <option value="Thyroid Cancer">Thyroid Cancer</option>
+            <option value="Bladder Cancer">Bladder Cancer</option>
+            <option value="Uterine Cancer">Uterine Cancer</option>
+            <option value="Liver Cancer">Liver Cancer</option>
+        </select></td><tr>
+        <th><label >Preferred Language</label></th>
+        <th colspan="2"><label>Street Address</label></th>
+        <th><label>City</label></th><tr>
+        <td><select name="language" id="language" class="input-box">
+            <option>Select Preferred Language</option>
+            <option value="english">English</option>
+            <option value="hindi">hindi</option>
+            <option value="marathi">Marathi</option>
+            <option value="other">Other</option>
+        </select>
+        </td>
+        <td colspan="2"><input type="text" class="input-box" placeholder="Address"></td>
+        <td><input type="text" class="input-box" placeholder="City"></td>
+        <tr>
+        <td><label style="padding-left: 100px;">State :</label></td>
+        <th><input type="text" class="input-box" placeholder="State"></th>
+        <td><label style="padding-left: 100px;">Pin code :</label></td>
+        <th><input type="number" class="input-box" placeholder="Pin code"></th><tr>
+        <th><label>Emergency Contect Name</label></th>
+        <th><label>Emergency Contect phone</label></th>
+        <th><label>Referring Docter</label></th>
+        <th><label>Pharmacy Name</label></th><tr>
+        <td><input type="text" class="input-box" placeholder="Emergency Contect Person name"></td>
+        <th style="display: flex;"><input type="" value="+91" style="width:70px; font-size: 15px; padding-right: 10px;"><input type="number" class="input-box" placeholder="Phone No."></th>
+        <th><select name="docter" id="docter" class="input-box">
+            <option >Select Docter</option>
+            <option value="Dr. Anita Deshpande">Dr. Anita Deshpande</option>
+            <option value="Dr. Vinit Patil">Dr. vinit Patil</option>
+            <option value="Dr. Shraddha Singh">Dr. Shraddha Singh</option>
+            <option value="Dr. Akash Gulve">Dr. Akash Gulve</option>
+            <option value="Dr. Gourav patil">Dr. Gourav Patil</option>
+        </select></th>
+        <th><input type="text" class="input-box" placeholder="Pharmacy name"></th>
+        <tr>
+        <th><label>Family History of Cancer Type</label></th>
+        <th><p>plaease specify type of cancer</p></th> 
+        <tr>
+        <th><label style="padding-left: 100px;">Mother: </label></th>
+        <td><select name="cancerType" id="cancerType" class="input-box">
+                <option>select please</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Breast Cancer">Breast Cancer</option>
+                <option value="Colorectal Cancer">Colorectal Cancer</option>
+                <option value="Kidney Cancer">Kidney Cancer</option>
+                <option value="Lung Cancer">Lung Cancer</option>
+                <option value="Lymphoma">Lymphoma</option>
+                <option value="Melanoma">Melanoma</option>
+                <option value="Oral and Oropharyngeal Cancer">Oral and Oropharyngeal Cancer</option>
+                <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+                <option value="Prostate Cancer">Prostate Cancer</option>
+                <option value="Thyroid Cancer">Thyroid Cancer</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Uterine Cancer">Uterine Cancer</option>
+                <option value="Liver Cancer">Liver Cancer</option>
+            </select></td>
+        <th><label style="padding-left: 100px;">Father :</label></th>
+        <td><select name="cancerType" id="cancerType" class="input-box">
+                <option>select please</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Breast Cancer">Breast Cancer</option>
+                <option value="Colorectal Cancer">Colorectal Cancer</option>
+                <option value="Kidney Cancer">Kidney Cancer</option>
+                <option value="Lung Cancer">Lung Cancer</option>
+                <option value="Lymphoma">Lymphoma</option>
+                <option value="Melanoma">Melanoma</option>
+                <option value="Oral and Oropharyngeal Cancer">Oral and Oropharyngeal Cancer</option>
+                <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+                <option value="Prostate Cancer">Prostate Cancer</option>
+                <option value="Thyroid Cancer">Thyroid Cancer</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Uterine Cancer">Uterine Cancer</option>
+                <option value="Liver Cancer">Liver Cancer</option>
+            </select></td><tr>
+        <th><label style="padding-left: 100px;">Brother: </label></th>
+        <td><select name="cancerType" id="cancerType" class="input-box">
+                <option>select please</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Breast Cancer">Breast Cancer</option>
+                <option value="Colorectal Cancer">Colorectal Cancer</option>
+                <option value="Kidney Cancer">Kidney Cancer</option>
+                <option value="Lung Cancer">Lung Cancer</option>
+                <option value="Lymphoma">Lymphoma</option>
+                <option value="Melanoma">Melanoma</option>
+                <option value="Oral and Oropharyngeal Cancer">Oral and Oropharyngeal Cancer</option>
+                <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+                <option value="Prostate Cancer">Prostate Cancer</option>
+                <option value="Thyroid Cancer">Thyroid Cancer</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Uterine Cancer">Uterine Cancer</option>
+                <option value="Liver Cancer">Liver Cancer</option>
+            </select></td>
+        <th><label style="padding-left: 100px;">Sister :</label></th>
+        <td><select name="cancerType" id="cancerType" class="input-box">
+                <option>select please</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Breast Cancer">Breast Cancer</option>
+                <option value="Colorectal Cancer">Colorectal Cancer</option>
+                <option value="Kidney Cancer">Kidney Cancer</option>
+                <option value="Lung Cancer">Lung Cancer</option>
+                <option value="Lymphoma">Lymphoma</option>
+                <option value="Melanoma">Melanoma</option>
+                <option value="Oral and Oropharyngeal Cancer">Oral and Oropharyngeal Cancer</option>
+                <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+                <option value="Prostate Cancer">Prostate Cancer</option>
+                <option value="Thyroid Cancer">Thyroid Cancer</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Uterine Cancer">Uterine Cancer</option>
+                <option value="Liver Cancer">Liver Cancer</option>
+            </select></td>
+        <tr>
+        <th><label style="padding-left: 100px;">Child: </label></th>
+        <td><select name="cancerType" id="cancerType" class="input-box">
+                <option>select please</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Breast Cancer">Breast Cancer</option>
+                <option value="Colorectal Cancer">Colorectal Cancer</option>
+                <option value="Kidney Cancer">Kidney Cancer</option>
+                <option value="Lung Cancer">Lung Cancer</option>
+                <option value="Lymphoma">Lymphoma</option>
+                <option value="Melanoma">Melanoma</option>
+                <option value="Oral and Oropharyngeal Cancer">Oral and Oropharyngeal Cancer</option>
+                <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+                <option value="Prostate Cancer">Prostate Cancer</option>
+                <option value="Thyroid Cancer">Thyroid Cancer</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Uterine Cancer">Uterine Cancer</option>
+                <option value="Liver Cancer">Liver Cancer</option>
+            </select></td>
+        <th><label style="padding-left: 100px;">Other Family Member :</label></th>
+        <td><select name="cancerType" id="cancerType" class="input-box">
+                <option>select please</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Breast Cancer">Breast Cancer</option>
+                <option value="Colorectal Cancer">Colorectal Cancer</option>
+                <option value="Kidney Cancer">Kidney Cancer</option>
+                <option value="Lung Cancer">Lung Cancer</option>
+                <option value="Lymphoma">Lymphoma</option>
+                <option value="Melanoma">Melanoma</option>
+                <option value="Oral and Oropharyngeal Cancer">Oral and Oropharyngeal Cancer</option>
+                <option value="Pancreatic Cancer">Pancreatic Cancer</option>
+                <option value="Prostate Cancer">Prostate Cancer</option>
+                <option value="Thyroid Cancer">Thyroid Cancer</option>
+                <option value="Bladder Cancer">Bladder Cancer</option>
+                <option value="Uterine Cancer">Uterine Cancer</option>
+                <option value="Liver Cancer">Liver Cancer</option>
+            </select></td>
+        <tr>
+      </table>
+      <h2>Social History : </h2><br>
+      <label>marital Status :</label>
+      <div class="marital-redio">
+        <input type="radio" value="married" name="state-mari"><span>Marries</span>
+        <input type="radio" value="Single" name="state-mari"><span>Single</span>
+        <input type="radio" value="Divorce" name="state-mari"><span>Divorce</span>
+        <input type="radio" value="Widowed" name="state-mari"><span>Widowed</span>
+      </div><br>
+      <label>Number of children : </label><input type="number" class="in-box" placeholder="child" style="width: 100px; height: 20px; margin-left: 30px; background: transparent; border-bottom: 1px solid #0ef; border-radius: 0; ">
+      <label>Tobacco use: </label>
+    <div class="marital-redio">
+        <input type="radio" value="Current" name="Tobacco"><span>Marries</span>
+        <input type="radio" value="Single" name="Tobacco"><span>Single</span>
+        <input type="radio" value="Divorce" name="Tobacco"><span>Divorce</span>
+        <input type="radio" value="Widowed" name="Tobacco"><span>Widowed</span>
+    </div>
+    <label style="margin-left: 50px;">Type : </label><input type="number" class="in-box" placeholder="Type"
+        style="width: 100px; height: 20px; margin-left: 30px; background: transparent; border-bottom: 1px solid #0ef; border-radius: 0; ">
+    <br>
+    <label style="margin-left: 50px;">Duration Of use : </label><input type="number" class="in-box" placeholder="Duration"
+        style="width: 200px; height: 20px; margin-left: 30px; background: transparent; border-bottom: 1px solid #0ef; border-radius: 0; ">
+        <br>
+    <label>Alcohol Use: </label>
+    <div class="marital-redio">
+        <input type="radio" value="formar use" name="alcohol"><span>formally</span>
+        <input type="radio" value="Drink Socially" name="alcohol"><span>Socially</span>
+        <input type="radio" value="Heavy drink" name="alcohol"><span>Heavy</span>
+        <input type="radio" value="Never" name="alcohol"><span>Never</span>
+    </div>
+    <input type="button" value="reset" style="background: #0ef; font-size: large; font-weight: 600;">
+    <input type="button" value="submit" style="background: #0ef; font-size: large; font-weight: 600;">
+</div>
+</body>
+</html>
